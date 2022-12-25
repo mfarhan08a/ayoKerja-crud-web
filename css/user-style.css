@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+
+.body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffcaca;
+}
+
+.navbar {
+  display: flex;
+  background-color: #ffecef;
+  justify-content: space-between;
+  align-items: center;
+  height: 5em;
+  box-shadow: 0.7px 0.7px 3.3px rgba(0, 0, 0, 0.036), 2.2px 2.2px 11.2px rgba(0, 0, 0, 0.054),
+    10px 10px 50px rgba(0, 0, 0, 0.09);
+}
+
+.navbar > .logo {
+  display: flex;
+  margin-left: 24px;
+  height: 4em;
+  align-items: center;
+}
+
+.navbar > .logo > a > h4 {
+  margin-left: 12px;
+  margin-top: 8px;
+  font-size: 20pt;
+  font-weight: 700;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+  color: #372948;
+}
+
+.logo > .logoImg {
+  width: 48px;
+}
+
+.searchBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchBar > input {
+  width: 16em;
+  height: 30px;
+  border-style: none;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.searchBar > button {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  border-radius: 10px;
+  border-style: none;
+  background-color: white;
+}
+
+.searchInput {
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 25px;
+  border-style: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.09);
+}
+
+img.searchIcon {
+  height: 80%;
+  opacity: 60%;
+}
+
+img.searchIcon:hover {
+  cursor: pointer;
+}
+
+.navbar > .menu {
+  display: flex;
+  align-items: center;
+  margin-right: 24px;
+}
+
+.navbar > .menu > a {
+  color: black;
+  text-decoration: none;
+  margin: auto 15px;
+  font-size: 12pt;
+  padding: 12px 16px;
+  border-radius: 8px;
+  transition: 0.2s;
+}
+
+.navbar > .menu > a:hover {
+  background-color: #ffcaca;
+}
+
+.navbar > .menu > a:active {
+  background-color: #372948;
+}
+
+.page {
+  background-color: #ffecef;
+  margin: 12px 24px;
+  margin-top: 6.5rem;
+  padding: 16px 40px;
+  border-radius: 10px;
+  padding-bottom: 48px;
+  box-shadow: 0.7px 0.7px 3.3px rgba(0, 0, 0, 0.036), 2.2px 2.2px 11.2px rgba(0, 0, 0, 0.054),
+    10px 10px 50px rgba(0, 0, 0, 0.09);
+}
+
+.jumbotron {
+  height: 55vh;
+  display: grid;
+  align-items: center;
+}
+
+.content-center {
+  height: 50vh;
+  display: grid;
+  align-items: center;
+}
+
+button.button {
+  padding: 12px 32px;
+  border-style: none;
+  border-radius: 16px;
+  background-color: #372948;
+  color: white;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+button.button:hover {
+  background-color: rgb(50, 48, 48);
+}
+
+div.line {
+  height: 8px;
+  border-radius: 12px;
+  background-color: #372948;
+}
+
+div.liner {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+.footer {
+  background-color: #ffecef;
+  margin: 16px 24px;
+  border-radius: 10px;
+  box-shadow: 0.7px 0.7px 3.3px rgba(0, 0, 0, 0.036), 2.2px 2.2px 11.2px rgba(0, 0, 0, 0.054),
+    10px 10px 50px rgba(0, 0, 0, 0.09);
+}
+
+.login-page {
+  display: grid;
+  align-items: center;
+}
+
+.login-form {
+  background-color: #ffecef;
+  width: 30%;
+  border-radius: 10px;
+  box-shadow: 0.7px 0.7px 3.3px rgba(0, 0, 0, 0.036), 2.2px 2.2px 11.2px rgba(0, 0, 0, 0.054),
+    10px 10px 50px rgba(0, 0, 0, 0.09);
+}
+
+p.font-footer {
+  font-size: 10pt;
+}
+
+img.thumbnail-image {
+  width: 100%;
+  max-height: 100px;
+  object-fit: cover;
+}

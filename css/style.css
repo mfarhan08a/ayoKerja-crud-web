@@ -1,0 +1,510 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffcaca;
+}
+
+/* navbar sidebar css */
+
+header {
+  display: inline;
+}
+
+nav {
+  display: flex;
+  background-color: #ffecef;
+  justify-content: space-between;
+  align-items: center;
+  margin: 8px 24px;
+  border-radius: 12px;
+  height: 4em;
+  box-shadow: 0.7px 0.7px 3.3px rgba(0, 0, 0, 0.036), 2.2px 2.2px 11.2px rgba(0, 0, 0, 0.054),
+    10px 10px 50px rgba(0, 0, 0, 0.09);
+}
+
+nav > .logo {
+  display: flex;
+  margin-left: 24px;
+  height: 3em;
+  align-items: center;
+}
+
+nav > .logo > h4 {
+  margin-left: 12px;
+  font-size: 16pt;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.logo > .logoImg {
+  width: 40px;
+}
+
+.searchBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.searchBar > input {
+  width: 16em;
+  height: 30px;
+  border-style: none;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.searchBar > button {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  border-radius: 10px;
+  border-style: none;
+  background-color: white;
+}
+
+.searchInput {
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 25px;
+  border-style: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.09);
+}
+
+img.searchIcon {
+  height: 80%;
+  opacity: 60%;
+}
+
+img.searchIcon:hover {
+  cursor: pointer;
+}
+
+nav > .menu {
+  display: flex;
+  align-items: center;
+  margin-right: 24px;
+}
+
+nav > .menu > a {
+  color: black;
+  text-decoration: none;
+  margin: auto 15px;
+  font-size: 12pt;
+  padding: 12px 16px;
+  border-radius: 8px;
+  transition: 0.2s;
+}
+
+nav > .menu > a:hover {
+  background-color: #ffcaca;
+}
+
+nav > .menu > a:active {
+  background-color: #372948;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 20% auto;
+  grid-gap: 20px;
+  width: 100%;
+  height: 82vh;
+}
+
+main > aside {
+  width: 100%;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+img.pict {
+  width: 100%;
+  object-fit: cover;
+}
+
+.profile-pict {
+  display: flex;
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0.7px 0.7px 3.3px rgba(0, 0, 0, 0.036), 2.2px 2.2px 11.2px rgba(0, 0, 0, 0.054);
+}
+
+.profile-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.profile-desc > p {
+  margin: 0;
+  margin-top: 8px;
+  font-size: 10pt;
+  font-weight: bold;
+  text-align: center;
+}
+
+.profile-desc > span {
+  margin: 0 0;
+  font-size: 8pt;
+  text-align: center;
+}
+
+footer {
+  margin: 0 0;
+  margin-top: 20px;
+  width: 100%;
+  color: white;
+  background-color: #251b37;
+  border-radius: 16px;
+  text-align: center;
+  padding: 0.1pt;
+  font-size: 6pt;
+  box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.036);
+}
+
+footer > p > a {
+  text-decoration: none;
+  color: white;
+}
+
+main > aside > .navSide {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+main > aside > .navSide > a {
+  display: flex;
+  margin-bottom: 16px;
+  text-decoration: none;
+  border-bottom: 1px solid #251b372f;
+  border-radius: 12px;
+  padding: 0 20px;
+  width: 100%;
+  transition: 0.2s;
+}
+
+main > aside > .navSide > a:hover {
+  background-color: #ffcaca;
+}
+
+main > aside > .navSide > a:active {
+  background-color: #372948;
+}
+
+.navSide > a > p {
+  font-size: 12pt;
+  margin-left: 12px;
+  color: #251b37;
+}
+
+main > aside > div > p {
+  padding: 0 20px;
+  font-size: 10pt;
+}
+
+img.icon {
+  object-fit: contain;
+  width: 32px;
+}
+
+.card {
+  background-color: #ffecef;
+  margin: 8px 24px;
+  padding: 16px 44px;
+  border-radius: 10px;
+  box-shadow: 0.7px 0.7px 3.3px rgba(0, 0, 0, 0.036), 2.2px 2.2px 11.2px rgba(0, 0, 0, 0.054),
+    10px 10px 50px rgba(0, 0, 0, 0.09);
+}
+
+/* dashboard css */
+
+.content {
+  overflow-y: scroll;
+}
+
+.content > h1 {
+  color: #251b37;
+}
+
+.content > section > h2 {
+  font-size: 16pt;
+  font-weight: 600;
+  color: #251b37;
+}
+
+.insight {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.insight-card {
+  background-color: white;
+  padding: 16px 24px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.036);
+  display: flex;
+  flex-direction: column;
+  color: rgba(0, 0, 0, 0.751);
+}
+
+.insight-card > .count {
+  font-size: 60pt;
+  font-weight: 900;
+  margin: 0 0;
+}
+
+.card-dark {
+  background-color: #251b37;
+  color: #ffecef;
+  box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.036);
+}
+
+.content-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+img.content-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.content-card {
+  background-color: white;
+  padding: 16px 24px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.036);
+  display: flex;
+}
+
+.image {
+  width: 30%;
+  height: 7em;
+  border-radius: 16px;
+  overflow: hidden;
+  margin-right: 12px;
+}
+
+.desc {
+  width: 70%;
+  position: relative;
+}
+
+.desc > h3 {
+  font-size: 12pt;
+  margin: 0 0;
+  margin-top: 4px;
+}
+
+.desc > span {
+  font-size: 8pt;
+  font-weight: 100;
+}
+
+.desc > p {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  margin: 0 0;
+  width: 100%;
+  height: 3em;
+  line-height: 1.5em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  position: absolute;
+  font-size: 12pt;
+}
+
+/* content css */
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.info > label {
+  font-size: 10pt;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.form > label {
+  font-size: 10pt;
+}
+
+.form > .info > input,
+select,
+textarea {
+  padding: 10px 5px;
+  margin-bottom: 30px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #251b37;
+  resize: none;
+}
+
+.form > .info > input::placeholder,
+textarea::placeholder {
+  color: #251b37;
+  font-family: "Poppins", sans-serif;
+}
+.info > select > option:focus {
+  border: none;
+}
+.info > select > option {
+  background: #ffecef;
+  border: none;
+}
+.checkbox {
+  margin: 12px 0;
+}
+
+.checkbox input {
+  margin: 0 10px;
+  vertical-align: middle;
+}
+.checkbox a {
+  color: #26a9e0;
+}
+.checkbox a:hover {
+  color: #85d6de;
+}
+.form > button {
+  padding: 10px 5px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: none;
+  background: #251b37;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+}
+.form > button {
+  width: 100%;
+}
+.form > button:hover {
+  background: #372948;
+}
+
+/* settings css */
+
+table.table {
+  table-layout: auto;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table tr,
+.table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.table td:first-child {
+  background-color: white;
+}
+
+.table button {
+  width: 100%;
+}
+
+.buttonChange {
+  padding: 10px 5px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: none;
+  background: #251b37;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+}
+.buttonChange {
+  width: 100%;
+}
+.buttonChange:hover {
+  background: #372948;
+}
+
+/* job list table */
+
+table.job-table {
+  table-layout: auto;
+  border-collapse: collapse;
+  width: 200%;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.job-table td,
+.job-table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.job-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.job-table tr:hover {
+  background-color: #ddd;
+}
+
+.job-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #251b37;
+  color: white;
+}
+
+.action-button {
+  background-color: #251b37;
+  color: white;
+  height: 32px;
+  border-radius: 4px;
+  margin-bottom: 4px;
+  border: none;
+}
+
+button.action-button:hover {
+  background-color: #372948;
+}
+
+button.action-button:active {
+  background-color: #ffcaca;
+  color: #251b37;
+}
+
+.action-button-container {
+  display: flex;
+  flex-direction: column;
+  margin: 4px 12px;
+}
+
+button.blue {
+  background-color: rgb(79, 79, 179);
+}
+button.red {
+  background-color: rgb(168, 98, 98);
+}
